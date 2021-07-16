@@ -1,0 +1,15 @@
+#reset-button {
+    height: 3rem;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    font-style: italic;
+    color: white;
+}
+body.dark #reset-button {
+    background-color: var(--blue); 
+}
+body.light #reset-button {
+    background-color: var(--magenta);
+}

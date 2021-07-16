@@ -1,0 +1,21 @@
+#flappy-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 1rem;
+}
+#why-hello {
+    height: 3rem;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    font-style: italic;
+    color: white;
+}
+body.dark #why-hello {
+    background-color: var(--blue); 
+}
+body.light #why-hello {
+    background-color: var(--magenta);
+}

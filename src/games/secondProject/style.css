@@ -1,0 +1,30 @@
+#passwordInput {
+    background-color: aqua;
+    border: 2px solid darkcyan;
+    width: 200px;
+    height: 25px;
+}
+        .header {
+    color: slateblue;
+}
+#turtle-main {
+    font-family: Tahoma;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+#hintsDiv li {
+    font-size: 0.8em;
+}
+body.light p, a {
+    color: #000;
+}
+body.dark p, a {
+    color: #93a1a1;
+}
+#hintsDiv {
+    border: 2px dotted darkslategray;
+    padding: 0em 1em;
+    width: 700px;
+    height: 550px;
+}

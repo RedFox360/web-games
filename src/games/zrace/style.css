@@ -1,0 +1,6 @@
+#zmain {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 1rem;
+}

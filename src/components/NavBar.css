@@ -1,0 +1,61 @@
+#nav-container {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+  }
+  #navbar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  }
+  body.light #navbar {
+    background-color: var(--base3);
+  }
+  body.dark #navbar {
+    background-color: var(--base03);
+  }
+  #nav-title {
+    align-self: center;
+    margin-left: 2rem;
+  }
+  #navbar:hover {
+    box-shadow:  0 5px 10px 0 rgba(0, 0, 0, 0.4);
+  }
+  #nav li {
+    float: left;
+  }
+  .navbar-item {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+  }
+  .navbar-item:hover {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.4);
+    background-color: #268bd266;
+  }
+  .link {
+    color: var(--cyan);
+  }
+  :root {
+    --base03:    #002b36;
+    --base02:    #073642;
+    --base01:    #586e75;
+    --base00:    #657b83;
+    --base0:     #839496;
+    --base1:     #93a1a1;
+    --base2:     #eee8d5;
+    --base3:     #fdf6e3;
+    --yellow:    #b58900;
+    --orange:    #cb4b16;
+    --red:       #dc322f;
+    --magenta:   #d33682;
+    --violet:    #6c71c4;
+    --blue:      #268bd2;
+    --cyan:      #2aa198;
+    --green:     #859900;
+  }
